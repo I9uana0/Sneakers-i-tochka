@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+.header,
+.main,
+.footer {
+    padding: 0 110 0 120;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #A1A6B4;
+}
+
+.header__logo {
+    width: 213;
+    height: 63;
+    padding: 30 0 16;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Anonymous Pro", sans-serif;
+}
+
+a, p, h3, h2{
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 25px;
+    justify-content: flex-end;
+
+}
+
+.header__links {
+    box-sizing: border-box;
+    font-family: "Anonymous Pro", sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer__links {
+    box-sizing: border-box;
+    font-family: "Anonymous Pro", sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer__links a {
+    color: white;
+}
+
+.footer__logo {
+    display: flex;
+    width: 100%;
+    padding: 30 0 16;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #E6E8EC66;
+}
+
+.footer {
+    display: flex;
+    background-color: #121723;
+}
+
+.footer__nav {
+    display: flex;
+    border-bottom: 2px solid #E6E8EC66;
+
+}
+
+.under__footer {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: "Anonymous Pro", sans-serif;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    padding-bottom: 25px;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    font-size: 48px;
+    margin: 25 0 24 0;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 24px;
+}
+
+
+.container img {
+    width: 371;
+    height: 254;
+}
+
+.container div {
+    background-color: white;
+    border: 8px solid white;
+    border-radius: 12px;
+    width: 371px;
+}
+
+.container h3,
+p {
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.under__footer p {
+    font-size: 16px;
+    color: #A1A6B4;
+}
