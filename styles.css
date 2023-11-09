@@ -204,7 +204,6 @@ p {
     .subtitle {
         display: flex;
         justify-content: center;
-        padding-left: 60px;
     }
 
     h2 {
