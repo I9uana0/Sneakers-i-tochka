@@ -54,6 +54,14 @@ ul {
 
 }
 
+.header__nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
 .header__links {
     box-sizing: border-box;
     font-family: "Anonymous Pro", sans-serif;
