@@ -179,7 +179,54 @@ p {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 720px) {
 
+    .header,
+    .main,
+    .footer {
+        padding: 0;
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+    ul {
+        justify-content: flex-start;
+    }
+
+    .main {
+        padding: 0px 16px;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin: 0px 0px 24px 0px;
+    }
+
+    .content {
+        padding: 32px 0px;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 343px;
+    }
+
+    .card img {
+        width: 333px;
+        height: auto;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        justify-content: center;
+        padding: 30px 0px 0px;
+    }
+}
 
 @media screen and (max-width: 375px) {
 
