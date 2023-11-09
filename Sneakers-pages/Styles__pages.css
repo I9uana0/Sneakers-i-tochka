@@ -9,6 +9,7 @@
     src: url(../fonts/AnonymousPro-Regular.ttf);
 }
 
+
 body {
     font-family: "Anonymous Pro", sans-serif;
     margin: 0 auto;
@@ -21,6 +22,14 @@ body {
 }
 
 header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #A1A6B4;
+}
+
+.header__nav {
     display: flex;
     width: 100%;
     align-items: center;
@@ -213,4 +222,53 @@ ul span {
     font-family: Anonymous Pro;
     font-size: 20px;
 
+}
+
+@media screen and (max-width: 375px) {
+
+    .header,
+    .main,
+    .footer {
+        padding: 0;
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+    ul {
+        justify-content: flex-start;
+    }
+
+    .main {
+        padding: 0px 16px;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin: 0px 0px 24px 0px;
+    }
+
+    .content {
+        padding: 32px 0px;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 343px;
+    }
+
+    .card img {
+        width: 333px;
+        height: auto;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        justify-content: center;
+        padding: 30px 0px 0px;
+    }
 }
