@@ -34,7 +34,6 @@ header {
     width: 100%;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: 2px solid #A1A6B4;
 }
 
 .header__logo {
