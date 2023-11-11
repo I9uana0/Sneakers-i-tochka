@@ -206,7 +206,7 @@ p {
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
 
     .header__nav {
         flex-direction: column;
@@ -283,12 +283,12 @@ p {
         flex-direction: column;
     }
 
-    ul {
-        justify-content: flex-start;
-    }
-
     .main {
         padding: 0px 16px;
+    }
+
+    .subtitle {
+        justify-content: flex-start;
     }
 
     h2 {
