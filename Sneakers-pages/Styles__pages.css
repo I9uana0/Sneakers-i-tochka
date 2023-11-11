@@ -122,6 +122,7 @@ footer {
 }
 
 .main__card {
+    width: 100%;
     display: flex;
     padding: 48px;
     border-radius: 50px;
@@ -129,11 +130,11 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     background: var(--white-100, #FFF);
+
 }
 
 .main__card__img {
-    height: 600px;
-
+    width: 100%;
 }
 
 h3,
