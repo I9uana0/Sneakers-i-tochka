@@ -135,7 +135,7 @@ h2 {
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 24px;
 }
 
@@ -143,19 +143,18 @@ h2 {
 .card img {
     width: 371px;
     height: 254px;
+    border-radius: 12px;
 }
 
 .card {
     background-color: white;
-    border: 8px solid white;
     border-radius: 12px;
-    width: 371px;
+    width: 387px;
     transition: box-shadow ease-in-out 200ms
 }
 
-.card h3,
-p {
-    padding-left: 20px;
+.card__info {
+    padding: 0px 20px;
 }
 
 h3 {
@@ -180,19 +179,7 @@ p {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 1920px) and (min-width:1441px) {
-
-    .header,
-    .main,
-    .footer {
-        padding: 0px 140px;
-    }
-
-    .main {
-        padding-bottom: 25px;
-    }
-
-}
+/* @media screen and (max-width: 1879px) {} */
 
 @media screen and (max-width: 1024px) {
 
@@ -203,12 +190,17 @@ p {
 
     }
 
+    .main {
+        align-items: center;
+    }
+
     .cards {
         align-items: flex-start;
+        padding-bottom: 32px;
     }
 
     .card {
-        width: 288px;
+        width: 304px;
         border: 0px;
     }
 
