@@ -325,6 +325,10 @@ TODO   */
         padding: 0;
     }
 
+    ul {
+        justify-content: center;
+    }
+
     .header__nav {
         flex-direction: column;
     }
