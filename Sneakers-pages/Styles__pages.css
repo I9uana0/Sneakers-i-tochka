@@ -198,6 +198,7 @@ p {
 .main__card__info__desc__parameters__header {
     font-family: Anonymous Pro;
     font-size: 30px;
+    font-weight: 400;
 
 }
 
@@ -208,7 +209,7 @@ p {
 
 ul h3,
 ul span {
-    padding-bottom: 24PX;
+    padding-bottom: 24px;
     border-bottom: 1px solid #121723;
 }
 
@@ -224,7 +225,7 @@ ul span {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
     .header,
     .main,
@@ -237,11 +238,47 @@ ul span {
     }
 
     ul {
-        justify-content: flex-start;
+        justify-content: center;
+        padding: 0px;
     }
 
     .main {
-        padding: 0px 16px;
+        padding: 32px 16px;
+    }
+
+    .main__card {
+        box-sizing: border-box;
+        border-radius: 25px;
+        padding: 24px;
+    }
+
+    .main__card__info__title {
+        font-size: 32px;
+    }
+
+    .main__card__info__subtitle {
+        font-size: 20px;
+    }
+
+    .main__card__info__desc {
+        flex-direction: column;
+    }
+
+    .main__card__info__text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .main__card__info__desc__parameters span {
+        font-size: 16px;
+    }
+
+    .main ul {
+        gap: 0px;
+    }
+
+    ul span {
+        padding: 24px 0px;
     }
 
     h2 {
