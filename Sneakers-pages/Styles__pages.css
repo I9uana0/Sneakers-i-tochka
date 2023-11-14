@@ -286,8 +286,7 @@ ul span {
     background-color: white;
     border-radius: 12px;
     width: 364px;
-    transition: box-shadow ease-in-out 200ms;
-    transition: transform ease-in-out 200ms;
+    transition: box-shadow ease-in-out 200ms, transform ease-in-out 200ms;
 }
 
 .similar__cards .card__info {
