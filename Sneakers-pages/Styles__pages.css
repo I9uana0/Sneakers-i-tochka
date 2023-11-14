@@ -286,12 +286,22 @@ ul span {
     background-color: white;
     border-radius: 12px;
     width: 364px;
-    transition: box-shadow ease-in-out 200ms
+    transition: box-shadow ease-in-out 200ms;
+    transition: transform ease-in-out 200ms;
 }
 
 .similar__cards .card__info {
     padding: 0px 20px;
     margin: 0;
+}
+
+.similar__cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.similar__cards .card:active {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {

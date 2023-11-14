@@ -150,7 +150,8 @@ h2 {
     background-color: white;
     border-radius: 12px;
     width: 387px;
-    transition: box-shadow ease-in-out 200ms
+    transition: box-shadow ease-in-out 200ms;
+    transition: transform ease-in-out 200ms;
 }
 
 .card__info {
