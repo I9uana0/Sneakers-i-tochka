@@ -56,7 +56,6 @@ ul {
     box-sizing: border-box;
     gap: 25px;
     justify-content: flex-end;
-
 }
 
 .header__links {
@@ -154,9 +153,9 @@ p {
     align-self: stretch;
 }
 
-p {
+/* p {
     margin-bottom: 20px;
-}
+} */
 
 h1,
 h2,
@@ -219,6 +218,8 @@ p {
 .main__card__info__desc__parameters ul {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 ul h3,
@@ -292,6 +293,10 @@ ul span {
 .similar__cards .card__info {
     padding: 0px 20px;
     margin: 0;
+}
+
+.under__footer {
+    padding: 24px;
 }
 
 .similar__cards .card:hover {
@@ -437,7 +442,6 @@ ul span {
 
     .footer__logo {
         justify-content: center;
-        padding: 30px 0px 0px;
     }
 }
 
