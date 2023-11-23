@@ -142,7 +142,7 @@ h2 {
 
 
 .card img {
-    width: 364px;
+    width: 371px;
     height: 254px;
     border-radius: 12px;
 }
@@ -150,7 +150,7 @@ h2 {
 .card {
     background-color: white;
     border-radius: 12px;
-    width: 364px;
+    width: 371px;
     transition: box-shadow ease-in-out 200ms, transform ease-in-out 200ms;
 }
 
