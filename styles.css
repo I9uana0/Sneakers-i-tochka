@@ -195,6 +195,20 @@ p {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width:1879px) {
+
+    .header,
+    .main,
+    .footer {
+        padding: 0px 351px
+            /* padding: 0px 110px 0px 120px; */
+    }
+
+    .main {
+        padding-bottom: 25px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
 
     .header,
